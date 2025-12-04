@@ -1,0 +1,98 @@
+Build a complete HTML + CSS + JavaScript project named “Bite-Sized Learning App (MVP)” based on the following specifications:
+
+📌 PROJECT GOAL  
+Create a simple working MVP of a bite-sized learning app inspired by the given problem statement:  
+Users should scroll short educational videos, save them to playlists, track progress, and creators should be able to upload content.
+
+📌 FEATURES TO IMPLEMENT (MVP-Level)
+
+1. HOME FEED (Learner Side)
+- Infinite-scroll style feed UI
+- Each card shows:
+  • Short video (use placeholder video links)
+  • Title, creator name
+  • Topic tags (HTML/CSS/DSA/Aptitude etc.)
+  • Like button, Save button
+- Feed should be filterable by topic
+
+2. PLAYLISTS
+- Learner can add videos to “My Playlist”
+- Display saved videos in a separate page (playlist.html)
+- LocalStorage-based saving (no backend needed)
+
+3. CREATOR UPLOAD PAGE
+- A simple form:
+  • Upload video URL
+  • Title
+  • Topic tags (comma separated)
+- When a creator submits:
+  • Save the video details to localStorage as new content
+  • Content should appear in the learner feed
+
+4. VIDEO VIEW PAGE
+- When clicking a feed item → open video.html
+- Show:
+  • Video
+  • AI-Generated Summary (placeholder text)
+  • Auto-generated quiz (3 MCQs using JS)
+
+5. BASIC AI MOCK FUNCTIONS
+(No backend or real AI required — just JS simulation)
+- generateSummary(): returns 3–4 lines from a random preset list  
+- generateQuiz(): returns 3 fixed MCQs for now
+
+6. TOP NAVIGATION
+Include a top navbar with:
+- Home
+- Playlists
+- Upload
+- Profile
+
+7. RESPONSIVE UI
+- Mobile-first UI
+- Simple, clean, reels-style layout
+- Use your own CSS (NO frameworks)
+
+🎨 DESIGN STYLE  
+- Clean and modern  
+- Rounded cards  
+- White background  
+- Soft shadows  
+- Reel-style video cards  
+
+📁 PROJECT STRUCTURE  
+Create the following files:
+
+index.html  
+playlist.html  
+upload.html  
+video.html  
+styles.css  
+app.js  
+videos.js  (dummy video list + upload handling)
+
+📌 FUNCTIONS NEEDED  
+- loadFeed()  
+- renderVideoCard()  
+- saveToPlaylist()  
+- loadPlaylist()  
+- uploadVideo()  
+- generateSummary()  
+- generateQuiz()  
+
+📌 DUMMY DATA  
+Use an array of 6–10 sample short educational videos.
+
+📌 NO BACKEND  
+Use only HTML + CSS + JS + LocalStorage.
+
+📌 FINAL OUTPUT  
+Generate a complete working project with:  
+✔ Fully implemented UI  
+✔ Working feed  
+✔ Working playlist save  
+✔ Working upload page  
+✔ Summary + quiz generator  
+✔ Clean styling  
+
+Write correct code in all files.
